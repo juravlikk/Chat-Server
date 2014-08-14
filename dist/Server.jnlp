@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Alex/Documents/NetBeansProjects/Server/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Server</title>
+        <vendor>Александр</vendor>
+        <homepage href=""/>
+        <description>Server</description>
+        <description kind="short">Server</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="Server.jar" main="true"/>
+    <jar href="lib/MC.jar"/>
+<jar href="lib/csv.jar"/>
+</resources>
+    <application-desc main-class="com.Server.net.Server">
+    </application-desc>
+</jnlp>
